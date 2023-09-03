@@ -1,0 +1,36 @@
+#buble{
+			border-radius: 100%;border: 2px solid yellowgreen; background: green;color: white;padding: 10px;			
+			font-size: 28px;
+			text-align: center;
+			bottom: 0px;
+			position: absolute;bottom: 0px;
+		}
+		.ani{
+			animation: up 5s infinite;
+		}
+		@keyframes up {
+			0% {bottom:0%;}
+			100% {bottom:100%;}
+		}
+		#bar{
+			background: white;
+			color: black;
+			padding: 10px;
+			border-radius: 10px;
+			z-index: 0;
+			text-align: center;
+			font-size: 30px;
+		}
+		#keybord{
+			position: absolute;
+			bottom: 0px;
+			text-align: center;
+			width: 100%;
+			background: white;
+
+		}
+		@media screen and (min-width:770px) {
+  			
+		#keybord{
+			display: none;
+		}
