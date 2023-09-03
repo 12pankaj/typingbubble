@@ -1,17 +1,18 @@
+		ar=[113, 119, 101, 114, 116, 121, 117, 105, 111, 112, 97, 115, 100, 102, 103, 104, 106, 107, 108, 122, 120, 99, 118, 98, 110, 109]
 		startTimer(10);
 		var key=document.getElementById('keybord');
-		for(i=97;i<=122;i++)
+		for(i=0;i<ar.length;i++)
 		{
 		var br=document.createElement('br')
 
-			if(i==107 || i==117 )
+			if(i==10 || i==20 )
 			{
 				key.append(br)	
 			}
 		var but=document.createElement('button')
 			but.style="margin:2px;padding:5px;font-size:20px";
-			but.setAttribute("onclick","value1('"+String.fromCharCode(i)+"')")
-			but.innerText=String.fromCharCode(i);
+			but.setAttribute("onclick","value1('"+String.fromCharCode(ar[i])+"')")
+			but.innerText=String.fromCharCode(ar[i]);
 			key.append(but)
 		}
 		var bch="a";
