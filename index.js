@@ -5,7 +5,7 @@
 		{
 		var br=document.createElement('br')
 
-			if(i==10 || i==20 )
+			if(i==10 || i==19 )
 			{
 				key.append(br)	
 			}
