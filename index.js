@@ -66,9 +66,9 @@ function value1(a) {
 
     scr.innerText = sc;
     setTimeout(() => {
-      bu[0].classList.remove("ani");
+      bu.classList.remove("ani");
       setTimeout(() => {
-        bu[0].classList.add("ani");
+        bu.classList.add("ani");
         rand();
       }, 10);
     }, 10);
